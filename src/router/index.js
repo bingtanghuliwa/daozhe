@@ -5,6 +5,7 @@ import Hello from '@/components/Hello'
 import Index from '@/pages/index/index'
 import City from '@/pages/city/index'
 import OnedayTour from '@/pages/onedayTour/index'
+import OnedayList from '@/pages/onedaylist/oneday-list'
 
 
 
@@ -34,6 +35,10 @@ export default new Router({
       path: '/onedayTour',
       name: 'OnedayTour',
       component: OnedayTour
+    },{
+       path: '/onedayList',
+      name: 'OnedayList',
+      component: OnedayList
     } 
   ]
 })
