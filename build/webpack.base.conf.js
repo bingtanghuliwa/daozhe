@@ -62,5 +62,8 @@ module.exports = {
         }
       }
     ]
+  },
+  externals: {
+    'reqwest': 'reqwest'
   }
 }
