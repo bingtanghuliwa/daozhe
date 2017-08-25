@@ -100,6 +100,7 @@ export default {
 </script> -->
 
 <template>
+<<<<<<< HEAD
   <div id="app">
     <list :page="page"></list>
     <a class="button" @click="next" >GO NEXT<span>CURRENT:{{page}}</span></a>
@@ -110,6 +111,15 @@ export default {
 import List from './components/List'
 // import reqwest from 'reqwest'
 
+=======
+	<div>
+		<index-scrolls></index-scrolls>
+	</div>
+</template>
+
+<script>
+import Scrolls from '../onedaylist/scrolls.vue'
+>>>>>>> 6b3334fd1b661125c056583f57704f14555e5bfd
 export default {
   components: {
     List
@@ -123,6 +133,9 @@ export default {
     next () {
       this.page++
     }
+  },
+  components:{
+  	"index-scrolls":Scrolls
   }
 }
 </script>
